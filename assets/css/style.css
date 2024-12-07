@@ -87,6 +87,10 @@ section {
 .heading span {
   color: rgb(115, 3, 167);
 }
+header .imglogo{
+  width: 5px;
+  height: 5px;
+}
 header .logo {
   font-size: 1.9rem;
   font-weight: 800;
