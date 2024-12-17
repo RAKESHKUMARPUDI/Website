@@ -1389,7 +1389,7 @@ header .navbar ul li a:hover {
 
 /* Card Container */
 .portfolio-card-wrapper {
-  display: grid;
+  display:inline-flex;
   grid-template-columns: repeat(4, 1fr); /* Default to 4 cards for large screens */
   gap: 20px;
 }
@@ -1405,6 +1405,24 @@ header .navbar ul li a:hover {
 .portfolio-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+* Buttons */
+.portfolio-btn{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  
 }
 
 .portfolio-card img {
@@ -1427,28 +1445,7 @@ header .navbar ul li a:hover {
   margin-bottom: 15px;
 }
 
-.portfolio-btn {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
-}
 
-.portfolio-btn:hover {
-  text-decoration: underline;
-}
-
-/* View More */
-.portfolio-view-more {
-  text-align: center;
-  margin: 30px 0;
-}
-
-.portfolio-view-btn {
-  text-decoration: none;
-  font-size: 1rem;
-  color: #007bff;
-  font-weight: bold;
-}
 
 /* Small screens: Single card */
 @media (max-width: 576px) {
