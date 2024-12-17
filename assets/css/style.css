@@ -1391,6 +1391,8 @@ header .navbar ul li a:hover {
 .portfolio-card-wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Default to 4 cards for large screens */
+  display:inline-flex;
+  grid-template-columns: repeat(4, 1fr); /* Default to 4 cards for large screens */
   gap: 20px;
 }
 
@@ -1409,6 +1411,24 @@ header .navbar ul li a:hover {
 .portfolio-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+* Buttons */
+.portfolio-btn{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  
 }
 
 .portfolio-card img {
